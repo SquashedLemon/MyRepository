@@ -1,0 +1,9 @@
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\obj\Debug\netstandard2.0\J1_S1_01.csproj.CoreCompileInputs.cache
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\obj\Debug\netstandard2.0\J1_S1_01.AssemblyInfoInputs.cache
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\obj\Debug\netstandard2.0\J1_S1_01.AssemblyInfo.cs
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\obj\Debug\netstandard2.0\J1_S1_01.dll
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\obj\Debug\netstandard2.0\J1_S1_01.pdb
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\bin\Debug\netstandard2.0\J1_S1_01.deps.json
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\bin\Debug\netstandard2.0\J1_S1_01.dll
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\bin\Debug\netstandard2.0\J1_S1_01.pdb
+C:\Users\EJosef\source\repos\J1_S1_01\J1_S1_01\J1_S1_01\obj\Debug\netstandard2.0\J1_S1_01.csprojAssemblyReference.cache

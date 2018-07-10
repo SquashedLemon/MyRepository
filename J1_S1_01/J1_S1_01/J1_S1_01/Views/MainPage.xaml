@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ViewModel="clr-namespace:J1_S1_01.ViewModels;assembly=J1_S1_01"
+             x:Class="J1_S1_01.Views.MainPage">
+    <ContentPage.BindingContext>
+        <ViewModel:MainPageViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Margin="5, 5, 5, 5">
+            <ListView ItemsSource="{Binding AccountList}" HasUnevenRows="True" SelectedItem="{Binding UserAccount}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame HasShadow="True" Margin="5, 5, 5, 5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="5*"/>
+                                        <RowDefinition Height="5*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="5*"/>
+                                        <ColumnDefinition Width="5*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Row="0" Grid.Column="0" Text="Username:"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding Username}"/>
+                                    <Label Grid.Row="1" Grid.Column="0" Text="Password"/>
+                                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding Password}"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Create Account" Margin="5, 0, 5, 0" Command="{Binding NavigateCreate}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
